@@ -1,0 +1,16 @@
+rtkrcv -o /root/conf/rtcm3.conf -s -rovstr ntrip.kadaster.nl:2101/AMEL00NLD0 -p 9001
+rtkrcv -o /root/conf/rtcm3.conf -s -rovstr ntrip.kadaster.nl:2101/APEL00NLD0 -p 9001
+rtkrcv -o /root/conf/rtcm3.conf -s -rovstr ntrip.kadaster.nl:2101/BORS00NLD0 -p 9001
+rtkrcv -o /root/conf/rtcm3.conf -s -rovstr ntrip.kadaster.nl:2101/CBW100NLD0 -p 9001
+rtkrcv -o /root/conf/rtcm3.conf -s -rovstr ntrip.kadaster.nl:2101/EIJS00NLD0 -p 9001
+rtkrcv -o /root/conf/rtcm3.conf -s -rovstr ntrip.kadaster.nl:2101/EPL100NLD0 -p 9001
+rtkrcv -o /root/conf/rtcm3.conf -s -rovstr ntrip.kadaster.nl:2101/IJMU00NLD0 -p 9001
+rtkrcv -o /root/conf/rtcm3.conf -s -rovstr ntrip.kadaster.nl:2101/SCHI00NLD0 -p 9001
+rtkrcv -o /root/conf/rtcm3.conf -s -rovstr ntrip.kadaster.nl:2101/TERS00NLD0 -p 9001
+rtkrcv -o /root/conf/rtcm3.conf -s -rovstr ntrip.kadaster.nl:2101/TXE200NLD0 -p 9001
+rtkrcv -o /root/conf/rtcm3.conf -s -rovstr ntrip.kadaster.nl:2101/VLIE00NLD0 -p 9001
+rtkrcv -o /root/conf/rtcm3.conf -s -rovstr ntrip.kadaster.nl:2101/VLIS00NLD0 -p 9001
+rtkrcv -o /root/conf/rtcm3.conf -s -rovstr gnss1.tudelft.nl:2101/DLF100NLD0 -p 9001
+rtkrcv -o /root/conf/rtcm3.conf -s -rovstr gnss1.tudelft.nl:2101/KOS100NLD0 -p 9001
+rtkrcv -o /root/conf/rtcm3.conf -s -rovstr gnss1.tudelft.nl:2101/WSRA00NLD0 -p 9001
+rtkrcv -o /root/conf/rtcm3.conf -s -rovstr gnss1.tudelft.nl:2101/ZEGV00NLD0 -p 9001
