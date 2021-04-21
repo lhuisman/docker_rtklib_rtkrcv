@@ -10,9 +10,9 @@ RUN mkdir /root/src \
   && mkdir /data
 
 # Copy and compile str2str and convbin (RTKLIB)
-COPY myRTKLIB /root/src/rtklib
+COPY RTKLIB /root/src/rtklib
 
-RUN cd /root/src/rtklib/app/str2str/rtkrcv \
+RUN cd /root/src/rtklib/app/consapp/rtkrcv/gcc \
   && make \
   && make install \
   && cd
