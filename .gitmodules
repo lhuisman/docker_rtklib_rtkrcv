@@ -1,0 +1,4 @@
+[submodule "RTKLIB"]
+	path = RTKLIB
+	url = https://github.com/lhuisman/RTKLIB.git
+	branch = rtkrcv2grpht
